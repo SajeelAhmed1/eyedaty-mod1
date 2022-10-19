@@ -7,3 +7,20 @@
     height: 75%;
     width: 100%;
 }
+
+.custom-img2{
+    background-image: url('../public/darkbg.png');
+    height: 75%;
+    width: 100%;
+}
+
+.blogbg{
+    background-image: url('../public/blogbg1.png');
+    height: 75%;
+    width: 100%;
+}
+.nletterbg{
+    background-image: url('../public/newsletterbg.png');
+    height: 100%;
+    width: 100%;
+}
