@@ -1,5 +1,7 @@
 import React from 'react'
-import EyedatyLogo from './eyedatylogo'
+// import EyedatyLogo from './eyedatylogo'
+import langicon from '../../public/langicon.png'
+import Image from 'next/image'
 
 export default function TopNavbar() {
   return (
@@ -15,9 +17,9 @@ export default function TopNavbar() {
     </div>
     
     <div className=' lg:w-1/4 w-full flex justify-between '>
-      <div className='bg-white rounded-md p-2 '>
-        <p>
-          Compte Professiional ?
+      <div className='bg-white flex justify-center items-center  rounded-md p-1 '>
+        <p className='text-sm' >
+          Compte Professiional?
 
         </p>
       </div>
@@ -27,7 +29,7 @@ export default function TopNavbar() {
       </div>
 
       <div className=' p-2'>
-          r
+        <Image src={langicon} alt="Image of doctor" />
 
       </div>
 
