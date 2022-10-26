@@ -6,11 +6,11 @@ import icon2 from '../../public/icon-2.png'
 import icon3 from '../../public/icon-3.png' 
 import icon4 from '../../public/icon-4.png' 
 import icon5 from '../../public/icon-5.png' 
-import LeftIcon from '../icons/lefticon'
-import RightIcon from '../icons/righticon'
+import LeftIcon from '../../public/icons/lefticon'
+import RightIcon from '../../public/icons/righticon'
 
-import Image from 'next/image'
-import CategoryCard from './categorycard'
+// import Image from 'next/image'
+import CategoryCard from '../../components/categorycard'
 export default function Categories() {
   return (
     <section className="text-gray-600 body-font">

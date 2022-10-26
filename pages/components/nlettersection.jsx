@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
-import newsbg from '../../public/newsletterbg.png'
-import EyedatyLogo from './eyedatylogo'
+// import Image from 'next/image'
+// import newsbg from '../../public/newsletterbg.png'
+import EyedatyLogo from '../../components/eyedatylogo'
 
 export default function NletterSection() {
   return (

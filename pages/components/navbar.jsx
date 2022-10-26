@@ -1,6 +1,6 @@
 import React from 'react'
-import EyedatyLogo from './eyedatylogo'
-import BurgerMenuIcon from './../icons/burgermenuicon'
+import EyedatyLogo from '../../components/eyedatylogo'
+import BurgerMenuIcon from '../../public/icons/burgermenuicon'
 
 
 export default function Navbar() {

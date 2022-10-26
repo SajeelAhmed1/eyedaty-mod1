@@ -1,5 +1,5 @@
 import React from 'react'
-import EyedatyLogo from './eyedatylogo'
+import EyedatyLogo from '../../components/eyedatylogo'
 import Image from 'next/image'
 
 import linkedin from '../../public/linkedin.png'

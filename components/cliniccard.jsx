@@ -1,12 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import ViewIcon from '../icons/viewicon'
-import StarIcon from '../icons/staricon'
-import LocationIcon from '../icons/locationicon'
-import HeartIcon from '../icons/hearticon'
-import checkmark from '../../public/checkmark.png'
+// import ViewIcon from '../icons/viewicon'
+import ViewIcon from '../public/icons/viewicon'
+import StarIcon from '../public/icons/staricon'
+import LocationIcon from '../public/icons/locationicon'
+import HeartIcon from '../public/icons/hearticon'
+// import checkmark from '../../public/checkmark.png'
+import checkmark from '../public/checkmark.png'
 
-export default function LabCard(props) {
+export default function ClinicCard(props) {
   return (
     <div class="xl:w-1/4 md:w-1/2 p-4">
           <div class="flex justify-center">
@@ -19,7 +21,7 @@ export default function LabCard(props) {
               <div class="p-6">
                 <div className='flex flex-row space-x-2'>
                     <div>
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">{props.labtitle}</h5>
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">Dr.Mechri Nasser</h5>
                     </div>
                     <div className='py-1'>
                     <Image src={checkmark} alt="checkmark"/>

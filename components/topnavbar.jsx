@@ -1,6 +1,7 @@
 import React from 'react'
 // import EyedatyLogo from './eyedatylogo'
-import langicon from '../../public/langicon.png'
+// import langicon from '../../public/langicon.png'
+import langicon from '../public/langicon.png'
 import Image from 'next/image'
 
 export default function TopNavbar() {

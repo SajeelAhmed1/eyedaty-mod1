@@ -1,13 +1,13 @@
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 
-import ClinicCard from './cliniccard'
+import ClinicCard from '../../components/cliniccard'
 import clinicimage from '../../public/clinicimage.png'
 import clinicimage1 from '../../public/clinicimage1.png'
 import clinicimage2 from '../../public/clinicimage2.png'
 import clinicimage3 from '../../public/clinicimage3.png'
-import LeftIcon from '../icons/lefticon'
-import RightIcon from '../icons/righticon'
+import LeftIcon from '../../public/icons/lefticon'
+import RightIcon from '../../public/icons/righticon'
 
 export default function ClinicsSection() {
   return (
