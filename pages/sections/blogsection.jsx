@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
+
+
 import BlogCard from '../../components/blogcard'
 import clinicimage from '../../public/clinicimage.png'
 import clinicimage1 from '../../public/clinicimage1.png'

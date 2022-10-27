@@ -18,9 +18,9 @@ export default function TopNavbar() {
     </div>
     
     <div className=' lg:w-1/4 w-full flex justify-between '>
-      <div className='bg-white flex justify-center items-center  rounded-md p-1 '>
-        <p className='text-sm' >
-          Compte Professiional?
+      <div className='bg-white flex justify-center items-center  rounded-lg my-2 px-2  '>
+        <p className='text-xs font-bold' >
+          Compte Professional?
 
         </p>
       </div>
