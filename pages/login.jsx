@@ -20,7 +20,7 @@ export default function Login() {
                 </p>
                 <h2 className="text-black text-6xl font-bold title-font mb-5">Connectez-vous à votre compte</h2>
                 <p className='text-medium'>
-                    Vous&apos;n avez pas de compte? <span className='text-siteblue'> <a href="#">Créer un compte</a>
+                    Vous n avez pas de compte? <span className='text-siteblue'> <a href="#">Créer un compte</a>
                         
                         </span> 
                 </p>
@@ -51,7 +51,7 @@ export default function Login() {
                         </p>
                     </div>
                     <div className='text-siteblue '>
-                        <a href="#"> j&apos;ai  oublie le mot de passe?</a>
+                        <a href="#"> j ai  oublie le mot de passe?</a>
                         
                     </div>
                 </div>

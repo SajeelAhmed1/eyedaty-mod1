@@ -21,7 +21,7 @@ export default function Contactus() {
                 </p>
                 <h2 className="text-black text-6xl font-bold title-font mb-5">Contactez-nous</h2>
                 <p className='text-medium'>
-                    Vous n'avez pas de compte ? <span className='text-siteblue'> <a href="#">Créer un compte</a>
+                    Vous n avez pas de compte ? <span className='text-siteblue'> <a href="#">Créer un compte</a>
                         
                         </span> 
                 </p>
