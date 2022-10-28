@@ -15,7 +15,7 @@ export default function Signup() {
                 <p>
                     Accueil {">"} <span className='text-siteblue'>
 
-                    S inscrire
+                    S&apos;inscrire
                     </span>
                 </p>
                 <h2 className="text-black text-6xl font-bold title-font mb-5">Créer un compte</h2>
@@ -50,11 +50,11 @@ export default function Signup() {
                 <div className='flex  mb-10 '>
                     <input type="checkbox" name="" id="" />
                     <span className='ml-1'>
-                    J ai lu et j accepte <span className='text-siteblue'> la politique de confidentialité</span> 
+                    J&apos;ai lu et j accepte <span className='text-siteblue'> la politique de confidentialité</span> 
                     </span>
                 </div>
                 
-                <button className="text-white bg-siteblue border-0 py-2 px-8 focus:outline-none hover:bg-sitegreen rounded-lg text-lg">S inscrire</button>
+                <button className="text-white bg-siteblue border-0 py-2 px-8 focus:outline-none hover:bg-sitegreen rounded-lg text-lg">S&apos;inscrire</button>
                 {/* <p className="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p> */}
                 <span class="h-1 w-full bg-gray-300 flex justify-center my-5"></span>
                 <div className='flex flex-row justify-center space-x-3 mt-2'>

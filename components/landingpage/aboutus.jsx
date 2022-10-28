@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 // import aboutimg from '../public/aboutusimage.png'w
 
-import aboutimg from '../../public/aboutusimage.png'
+import aboutimg from '../../public/aboutusimg.svg'
 
 // import aboutimg from '../../'
 
@@ -12,7 +12,7 @@ export default function AboutUs() {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <Image src={aboutimg} alt="Image of doctor" width={420} height={428.03}/>
+                    <Image src={aboutimg} alt="Image of doctor"/>
                 {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
             </div>
 

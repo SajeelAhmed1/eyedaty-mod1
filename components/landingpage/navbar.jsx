@@ -30,7 +30,7 @@ export default function Navbar() {
             <button className="inline-flex items-center   border-2 border-siteblue  px-7 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0">Connexion
                 
             </button>
-            <button className="inline-flex items-center  bg-siteblue text-white   px-7 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0">S Inscrire
+            <button className="inline-flex items-center  bg-siteblue text-white   px-7 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0">S&apos;Inscrire
                 
             </button>
 
