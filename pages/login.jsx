@@ -1,11 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import loginimg from '../public/loginimg.png'
 import fbicon from '../public/facebookpng.png'
 import googleicon from '../public/googlepng.png'
 import twittericon from '../public/twitterpng.png'
 import Loginillus from '../public/icons/loginillus'
-// import aboutimg from '../../public/aboutusimage.png'/
+
 
 export default function Login() {
   return (

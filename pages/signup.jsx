@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import signupimg from '../public/signupimg.png'
+// import signupimg from '../public/'
 import fbicon from '../public/facebookpng.png'
 import googleicon from '../public/googlepng.png'
 import twittericon from '../public/twitterpng.png'

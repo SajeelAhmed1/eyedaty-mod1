@@ -1,13 +1,13 @@
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 
 
 import BlogCard from '../../components/blogcard'
-import clinicimage from '../../public/clinicimage.png'
-import clinicimage1 from '../../public/clinicimage1.png'
-import clinicimage2 from '../../public/clinicimage2.png'
-import clinicimage3 from '../../public/clinicimage3.png'
+// import clinicimage from '../../public/clinicimage.png'
+// import clinicimage1 from '../../public/clinicimage1.png'
+// import clinicimage2 from '../../public/clinicimage2.png'
+// import clinicimage3 from '../../public/clinicimage3.png'
 import LeftIcon from '../../public/icons/lefticon'
 import RightIcon from '../../public/icons/righticon'
 

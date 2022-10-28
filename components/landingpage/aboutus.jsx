@@ -3,6 +3,7 @@ import Image from 'next/image'
 // import aboutimg from '../public/aboutusimage.png'w
 
 import aboutimg from '../../public/aboutusimage.png'
+
 // import aboutimg from '../../'
 
 export default function AboutUs() {

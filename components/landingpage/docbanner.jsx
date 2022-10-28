@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import drimg from '../../public/drimg.png'
 
+
 export default function DocBanner() {
   return (
     <div className='flex flex-row justify-between p-10 h-screen my-12  bg-center bg-cover custom-img2'>

@@ -1,6 +1,7 @@
-import DownloadApp from "../pages/sections/downloadapp";
-import Footer from "../pages/sections/footer";
-import Navbar from "../pages/sections/navbar";
+
+import DownloadApp from "../components/landingpage/downloadapp";
+import Footer from "../components/landingpage/footer";
+import Navbar from "../components/landingpage/navbar";
 import TopNavbar from "./topnavbar";
 
 
