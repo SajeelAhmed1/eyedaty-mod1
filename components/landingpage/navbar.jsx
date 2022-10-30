@@ -46,7 +46,8 @@ export default function Navbar() {
 
     </div>
     <a className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0">
-      <EyedatyLogo/>
+      <EyedatyLogo height="50"  width="50"/>
+      
       {/* <span className="ml-3 text-xl">Tailblocks</span> */}
     </a>
     

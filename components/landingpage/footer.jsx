@@ -14,7 +14,7 @@ import wapp from '../../public/wapp.png'
 export default function Footer() {
   return (
     <footer className="text-white body-font bg-footergrey">
-        <div className="container px-20 py-24 mx-auto">
+        <div className="container lg:px-20 py-24 mx-auto">
             <div className="flex flex-wrap md:text-left text-center order-first">
                 <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                     {/* <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2> */}
@@ -24,11 +24,11 @@ export default function Footer() {
 
                         </div>
                         <div>
-                            <p>
+                            <p className='text-left'>
                             Lörem ipsum prektigt beren makroligt, till desena. Lasock heterok. Nir nist så keltisk tiger usat fast bior. Rebel nedyn prertad krod semigon.
                             </p>
                         </div>
-                        <div className='flex justify-between flex-row'>
+                        <div className='flex lg:justify-between flex-row space-x-2'>
                             <div>
                                 <Image src={linkedin} alt="Image of doctor" />
 
@@ -48,8 +48,8 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">Liens</h2>
+                <div className="lg:w-1/4 md:w-1/2 text-left w-full px-4">
+                    <h2 className="title-font font-medium text-white tracking-widest text-xl my-3">Liens</h2>
                     <nav className="list-none mb-10">
                         <div className='flex flex-row space-x-10'>
                             <div>
@@ -90,7 +90,7 @@ export default function Footer() {
                     </nav>
                 </div>
             <div className="lg:w-1/4 md:w-1/2 w-full  px-4">
-                <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Contactez Nous</h2>
+                <h2 className="title-font font-medium text-white text-left  tracking-widest text-medium mb-3">Contactez Nous</h2>
                 <nav className="list-none mb-10 space-y-3">
                 <li className='flex flex-row space-x-3'>
                     <div>
@@ -138,12 +138,12 @@ export default function Footer() {
             <div className="lg:w-1/4 md:w-1/2 w-full px-4 space-y-3">
                 <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Abonnez Nous</h2>
                 <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
-                    <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                    <div className="relative w-full lg:w-48  sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                         {/* <label for="footer-field" className="leading-7 text-sm text-white">Email</label> */}
-                        <input type="text" id="footer-field" name="footer-field" placeholder='E-mail' className=" w-48 bg-gray-100 bg-opacity-50 rounded border border-gray-300  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+                        <input type="text" id="footer-field" name="footer-field" placeholder='E-mail' className=" bg-footergrey w-full lg:w-48  bg-opacity-50 rounded-lg border border-gray-300  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                     </div>
                 </div>
-                <button className="lg:mt-2 xl:mt-0 w-48 flex justify-center flex-shrink-0  text-white bg-siteblue border-0 py-2 px-6 focus:outline-none  rounded">Abbonez</button>
+                <button className="lg:mt-2   w-full lg:w-48 flex justify-center flex-shrink-0  text-white bg-siteblue border-0 py-2 px-6 focus:outline-none  rounded-lg">Abbonez</button>
                 {/* <p className="text-gray-500 text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack
                 <br className="lg:block hidden">waistcoat green juice/>
                 </p> */}

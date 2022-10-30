@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function BlogCard(props) {
   return (
-    <div class="xl:w-1/4 md:w-1/2 p-4 h-1/3 ">
-                    <a href="#" class="relative block overflow-hidden rounded-xl blogbg bg-cover bg-center bg-no-repeat">
-                <span class="absolute left-3 top-4 z-10 inline-flex items-center rounded-md bg-white px-3 py-1 text-xs font-semibold text-black">
+    <div className="w-full lg:w-1/4 p-4 h-1/3 ">
+                    <a href="#" className="relative block overflow-hidden rounded-xl blogbg bg-cover bg-center bg-no-repeat">
+                <span className="absolute left-3 top-4 z-10 inline-flex items-center rounded-md bg-white px-3 py-1 text-xs font-semibold text-black">
                   {props.spec}
                     {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="ml-1.5 h-4 w-4 text-yellow-300"
+                      className="ml-1.5 h-4 w-4 text-yellow-300"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -18,10 +18,13 @@ export default function BlogCard(props) {
                     </svg> */}
                 </span>
 
-            <div class="relative bg-black bg-opacity-40 p-8 pt-40 h-1/3 text-white">
-              <p class="text-sm">25/05/2022</p>
-              <h3 class="text-2xl font-bold">Une hernie discale lombaire ventrale..</h3>
-              <p class="text-sm">Selma Achref</p>
+            <div className="relative bg-black bg-opacity-40  pb-8 pt-40 lg:p-8 lg:pt-40 h-1/3 text-white">
+              <div className='w-full p-5 lg:p-0  mr-40'>
+                  <p className="text-sm">25/05/2022</p>
+                  <h3 className="text-2xl font-bold">Une hernie discale lombaire ventrale..</h3>
+                  <p className="text-sm">Selma Achref</p>
+
+              </div>
             </div>
           </a>
 
