@@ -10,7 +10,9 @@ module.exports = {
         'siteblue': '#0094DA',
         'sitegreen': '#93C01F',
         'fieldwhite' : '#F5F8FB',
-        'footergrey' : '#1C2126'
+        'footergrey' : '#1C2126',
+        'dangercolor' : '#FF6551',
+        'succolor' : '#29C773'
         
       },
     },

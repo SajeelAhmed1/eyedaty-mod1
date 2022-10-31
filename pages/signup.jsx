@@ -10,9 +10,9 @@ import Link from 'next/link';
 
 export default function Signup() {
   return (
-    <section className="text-black body-font px-10 ">
-        <div className="container px-5 py-24 mx-auto flex  justify-center space-x-4 flex-row items-center">
-            <div className="lg:w-1/2 md:w-1/2  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+    <section className="text-black body-font lg:px-10 ">
+        <div className="container lg:px-5 lg:py-24 mx-auto flex  justify-center space-x-4 flex-row items-center">
+            <div className="lg:w-1/2 md:w-1/2  rounded-lg p-8 flex flex-col md:ml-auto w-full lg:mt-10 md:mt-0">
                 <p>
                     Accueil {">"} <span className='text-siteblue'>
 
@@ -80,7 +80,7 @@ export default function Signup() {
                     
                 </div>
             </div>
-            <div className="lg:w-1/2 md:w-1/2  ">
+            <div className="hidden lg:block lg:w-1/2 md:w-1/2  ">
                 <Signupillus/>
                 {/* <Image src={signupimg} alt="Signup Image" width={500} height={500} /> */}
             </div>

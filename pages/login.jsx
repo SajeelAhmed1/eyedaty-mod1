@@ -5,19 +5,27 @@ import googleicon from '../public/googlepng.png'
 import twittericon from '../public/twitterpng.png'
 import Loginillus from '../public/icons/loginillus'
 
+import Closebtn from '../public/toastsvgs/closebtnicon'
+import Caution from '../public/toastsvgs/cautionicon'
+import Successtoast from '../components/successtoast'
+import Failedtoast from '../components/failedtoast'
+
 
 export default function Login() {
   return (
-    <section className="text-black body-font px-10 ">
-        <div className="container px-5 py-24 mx-auto flex  justify-center space-x-4 flex-row items-center">
+    <section className="text-black body-font lg:px-10 ">
+        <div className="container lg:px-5 lg:py-24 mx-auto flex  justify-center space-x-4 flex-row items-center">
             <div className="lg:w-1/2 md:w-1/2  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+
+                <Successtoast/>
+                <Failedtoast/>
                 <p>
                     Accueil {">"} <span className='text-siteblue'>
 
                     Connexion
                     </span>
                 </p>
-                <h2 className="text-black text-6xl font-bold title-font mb-5">Connectez-vous à votre compte</h2>
+                <h2 className="text-black lg:text-6xl text-5xl font-bold title-font mb-5">Connectez-vous à votre compte</h2>
                 <p className='text-medium'>
                     Vous n avez pas de compte? <span className='text-siteblue'> <a href="#">Créer un compte</a>
                         
@@ -37,11 +45,11 @@ export default function Login() {
                     </div>
                 </div>
 
-                <div className='flex text-sm justify-between mb-10 '>
+                <div className='flex text-sm lg:justify-between mb-10 '>
                     <div className=' flex flex-row space-x-2 '>
                         <label for="default-toggle" className="inline-flex relative items-center cursor-pointer">
                             <input type="checkbox" value="" id="default-toggle" class="sr-only peer"/>
-                            <div className="w-10 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                            <div className="w-10 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-siteblue  rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white  after:content-[''] after:absolute after:top-[10px] after:left-[2px] lg:after:top-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-siteblue"></div>
                             {/* <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Toggle me</span> */}
                         </label>
                         <p >
@@ -80,7 +88,7 @@ export default function Login() {
                     
                 </div>
             </div>
-            <div className="lg:w-1/2 md:w-1/2  ">
+            <div className="hidden lg:block lg:w-1/2 md:w-1/2  ">
                 <Loginillus/>
                 {/* <Image src={loginimg} alt="Login Image" width={500} height={500} /> */}
             </div>
