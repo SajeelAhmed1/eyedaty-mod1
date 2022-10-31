@@ -37,9 +37,7 @@ export default function Navbar() {
 
       </div>
       <div className="mr-5 hover:text-siteblue">
-      <Link  href="/aboutus">A propos de nous</Link>
-
-
+        <Link  href="/aboutus">A propos de nous</Link>
       </div>
       <div className="mr-5 hover:text-siteblue">
       <Link  href="/contactus">Contactez-nous</Link>

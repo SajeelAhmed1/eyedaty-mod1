@@ -2,7 +2,7 @@ import React from 'react'
 // import Errorillus from '../public/icons/errorillus'
 import Policyillus from '../public/icons/policyillus'
 
-export default function Policies() {
+export default function Tandc() {
   return (
     
     <div className='flex w-full justify-center items-center flex-col space-y-5 my-10'>
@@ -15,12 +15,12 @@ export default function Policies() {
         <p>
                     Accueil {">"} <span className='text-siteblue'>
 
-                    Politique de confidentialité
+                    Termes et conditions
                     </span>
                 </p>
             <div>
                 <h1 className='text-6xl font-bold'>
-                Politique de confidentialité
+                Termes et conditions
                 </h1>
             </div>
             <div>

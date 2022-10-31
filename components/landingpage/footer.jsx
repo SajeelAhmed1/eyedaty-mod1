@@ -2,6 +2,8 @@ import React from 'react'
 import EyedatyLogo from '../../components/eyedatylogo'
 import Image from 'next/image'
 
+import Link from 'next/link'; 
+
 import linkedin from '../../public/linkedin.png'
 import facebook from '../../public/facebook.png'
 import instagram from '../../public/instagram.png'
@@ -53,11 +55,18 @@ export default function Footer() {
                     <nav className="list-none mb-10">
                         <div className='flex flex-row space-x-10'>
                             <div>
-                                        <li>
-                                        <a className="text-white hover:text-gray-800"> Accueil</a>
+                                        <li >
+                                        <div className="text-white ">
+                                            <Link   href="/"> Accueli</Link>
+
+                                        </div>
+                                        {/* <a className="text-white hover:text-gray-800"> Accueil</a> */}
                                     </li>
                                     <li>
-                                        <a className="text-white hover:text-gray-800">À propos de nous</a>
+                                    <div className="text-white ">
+                                        <Link  href="/aboutus">A propos de nous</Link>
+                                    </div>
+                                        
                                     </li>
                                     <li>
                                         <a className="text-white hover:text-gray-800">Rozaliss</a>
@@ -65,10 +74,16 @@ export default function Footer() {
 
                                     
                                     <li>
-                                        <a className="text-white hover:text-gray-800">Termes et conditions</a>
+                                        <div className="text-white ">
+                                            <Link  href="/termsandcond">Termes et conditions</Link>
+                                        </div>
+                                        {/* <a className="text-white hover:text-gray-800"></a> */}
                                     </li>
                                     <li>
-                                        <a className="text-white hover:text-gray-800">Politique de confidentialité</a>
+                                        <div className="text-white ">
+                                            <Link  href="/policies">Politique de confidentialité</Link>
+                                        </div>
+                                        
                                     </li>
                             </div>
 
@@ -77,7 +92,9 @@ export default function Footer() {
                                         <a className="text-white hover:text-gray-800">Blog</a>
                                     </li>
                                     <li>
-                                        <a className="text-white hover:text-gray-800">Contactez-nous</a>
+                                        <div className="text-white ">
+                                            <Link  href="/contactus">Contactez-nous</Link>
+                                        </div>
                                     </li>
                                     <li>
                                         <a className="text-white hover:text-gray-800">Notre partenaires</a>
