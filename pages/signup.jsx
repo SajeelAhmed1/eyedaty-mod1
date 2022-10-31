@@ -6,6 +6,7 @@ import googleicon from '../public/googlepng.png'
 import twittericon from '../public/twitterpng.png'
 import Signupillus from '../public/icons/signupillus'
 // import aboutimg from '../../public/aboutusimage.png'/
+import Link from 'next/link';
 
 export default function Signup() {
   return (

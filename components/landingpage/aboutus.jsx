@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 // import aboutimg from '../public/aboutusimage.png'w
-
+import Link from 'next/link'; 
 import aboutimg from '../../public/aboutusimg.svg'
 
 // import aboutimg from '../../'

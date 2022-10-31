@@ -3,6 +3,7 @@ import {React,useState} from 'react'
 import EyedatyLogo from '../../components/eyedatylogo'
 import BurgerMenuIcon from '../../public/icons/burgermenuicon'
 import Modal from '../modal'
+import Link from 'next/link'; 
 
 
 export default function Navbar() {
@@ -22,14 +23,18 @@ export default function Navbar() {
   return (
 <header className="  text-gray-600 body-font">
   <div className="hidden container mx-auto lg:flex flex-wrap p-6 flex-col md:flex-row items-center">
+  <Link href="/">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      
       <EyedatyLogo width="56" height="56"/>
       {/* <span className="ml-3 text-xl">Tailblocks</span> */}
     </a>
+
+  </Link>
     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-      <a className="mr-5 hover:text-siteblue">Accueli</a>
-      <a className="mr-5 hover:text-siteblue">A propos de nous</a>
-      <a className="mr-5 hover:text-siteblue">Contactez-nous</a>
+      <a className="mr-5 hover:text-siteblue"><Link href="/login">Accueli</Link></a>
+      <a className="mr-5 hover:text-siteblue"><Link href="/aboutus">A propos de nous</Link></a>
+      <a className="mr-5 hover:text-siteblue"><Link href="/contactus">Contactez-nous</Link></a>
     
     </nav>
 
@@ -41,10 +46,10 @@ export default function Navbar() {
           {/* <span> A</span> */}
         </div>
         <div className='hidden lg:flex  w-2/4 justify-evenly'>
-            <button className="inline-flex items-center   border-2 border-siteblue  px-7 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0">Connexion
+            <button className="inline-flex items-center   border-2 border-siteblue  px-7 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0"><Link href="/login">Connexion</Link>
                 
             </button>
-            <button className="inline-flex items-center  bg-siteblue text-white   px-7 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0">S&apos;Inscrire
+            <button className="inline-flex items-center  bg-siteblue text-white   px-7 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0"><Link href="/signup">S&apos;Inscrire</Link>
                 
             </button>
 

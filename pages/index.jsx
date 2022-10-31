@@ -13,6 +13,7 @@ import LabSection from '../components/landingpage/labsection'
 import DocBanner from '../components/landingpage/docbanner'
 import BlogSection from '../components/landingpage/blogsection'
 import NletterSection from '../components/landingpage/nlettersection'
+import Link from 'next/link';
 // import Footer from './sections/footer'
 
 
