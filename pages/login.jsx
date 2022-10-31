@@ -10,6 +10,7 @@ import Caution from '../public/toastsvgs/cautionicon'
 import Successtoast from '../components/successtoast'
 import Failedtoast from '../components/failedtoast'
 
+import Link from 'next/link';
 
 export default function Login() {
   return (
@@ -58,7 +59,8 @@ export default function Login() {
                         </p>
                     </div>
                     <div className='text-siteblue '>
-                        <a href="#"> j ai  oublie le mot de passe?</a>
+                    <Link href="/forgotpassword">j ai  oublie le mot de passe?</Link>
+                        
                         
                     </div>
                 </div>

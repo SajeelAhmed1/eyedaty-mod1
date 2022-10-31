@@ -10,8 +10,8 @@ import Contactillus from '../public/icons/contactillus'
 
 export default function Contactus() {
   return (
-    <section className="text-black body-font px-10 ">
-        <div className="container px-5 py-24 mx-auto flex  justify-center space-x-4 flex-row items-center">
+    <section className="text-black body-font lg:px-10 ">
+        <div className="container lg:px-5 lg:py-24 mx-auto flex  justify-center space-x-4 flex-row items-center">
             <div className="lg:w-1/2 md:w-1/2  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
                 <p>
                     Accueil {">"} <span className='text-siteblue'>
@@ -54,7 +54,7 @@ export default function Contactus() {
                 {/* <p className="text-xs text-gray-500 mt-3">Literally you probably haven't heard of them jean shorts.</p> */}
                 
             </div>
-            <div className="lg:w-1/2 md:w-1/2 mr-3  ">
+            <div className="hidden lg:block lg:w-1/2 md:w-1/2 mr-3  ">
                 <Contactillus/>
                 {/* <Image src={loginimg} alt="Login Image" width={500} height={500} /> */}
             </div>

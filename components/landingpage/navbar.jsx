@@ -78,11 +78,15 @@ export default function Navbar() {
               </button>
 
             </div>
-            <a className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0">
-              <EyedatyLogo height="50"  width="50"/>
+            <Link href="/">
+              <a className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0">
               
-              {/* <span className="ml-3 text-xl">Tailblocks</span> */}
-            </a>
+                <EyedatyLogo height="50"  width="50"/>
+                
+                {/* <span className="ml-3 text-xl">Tailblocks</span> */}
+              </a>
+              
+            </Link>
             
           </div>
           <Modal isVisible={showModal}/>

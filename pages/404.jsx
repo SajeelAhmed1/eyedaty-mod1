@@ -9,18 +9,18 @@ export default function Errorpage() {
             <Errorillus/>
         </div>
         <div>
-            <h1 className='text-6xl font-bold'>
+            <h1 className='text-6xl text-center font-bold'>
                 Page non trouvée
             </h1>
         </div>
-        <div>
+        <div className='text-center'>
             <p>
                 La page que vous recherchez peut avoir été supprimée, modifiée ou temporairement indisponible
             </p>
         </div>
-        <div className='w-full flex justify-center p-2 '>
+        <div className='w-full flex justify-center px-4 lg:px-0 lg:p-2 '>
 
-            <button className="text-white w-2/5 bg-siteblue border-0 py-2 px-8 focus:outline-none hover:bg-sitegreen rounded-lg text-lg">Retour à la page principale</button>
+            <button className="text-white w-full lg:w-2/5 bg-siteblue border-0 py-2 px-8 focus:outline-none hover:bg-sitegreen rounded-lg text-lg">Retour à la page principale</button>
 
         </div>
     </div>
