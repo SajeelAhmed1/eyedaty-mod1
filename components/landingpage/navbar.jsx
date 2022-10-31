@@ -71,22 +71,25 @@ export default function Navbar() {
   </div>
 
       {/* phonenav */}
-  <div className="w-full px-8 py-2 flex justify-between lg:hidden">
-    <div className=' w-1/2 py-3 '>
-      <button  onClick={check}>
-        <BurgerMenuIcon/>
+      <div className='flex flex-col lg:hidden'>
+        <div className="w-full px-8 py-2 flex  justify-between lg:hidden">
+            <div className=' w-1/2 py-3 '>
+              <button  onClick={check}>
+                <BurgerMenuIcon/>
 
-      </button>
+              </button>
 
-    </div>
-    <a className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0">
-      <EyedatyLogo height="50"  width="50"/>
-      
-      {/* <span className="ml-3 text-xl">Tailblocks</span> */}
-    </a>
-    
-  </div>
-  <Modal isVisible={showModal}/>
+            </div>
+            <a className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0">
+              <EyedatyLogo height="50"  width="50"/>
+              
+              {/* <span className="ml-3 text-xl">Tailblocks</span> */}
+            </a>
+            
+          </div>
+          <Modal isVisible={showModal}/>
+      </div>
+  
 </header>
 
   )
