@@ -52,7 +52,7 @@ export default function AboutUs() {
                         <button className=" px-4 py-2 inline-flex lg:py-3 lg:px-5  rounded-lg items-center m-0 lg:ml-4 md:ml-0 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
                             <span className="lg:ml-4 flex  justify-center items-start font-extrabold flex-col leading-none">
                                 <span className=" ml-3 lg:m-0 lg:px-0 font-extrabold px-4 text-xl lg:text-3xl text-black">20 <span className='text-sitegreen'> + </span></span>
-                                <span className="font-semibold text-gray-600 mb-1">Des années d'expérience</span>
+                                <span className="font-semibold text-gray-600 mb-1">Des années d&apos;expérience</span>
                             </span>
                             
                         </button>

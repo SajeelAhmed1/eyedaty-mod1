@@ -1,11 +1,25 @@
-import React from 'react'
+
+import {React,useState} from 'react'
 import EyedatyLogo from '../../components/eyedatylogo'
 import BurgerMenuIcon from '../../public/icons/burgermenuicon'
+import Modal from '../modal'
 
 
 export default function Navbar() {
+
+  
+  const [showModal,setShowModal] = useState(false);
+  const check = () => {
+    if (showModal) {
+      console.log('modal is now false')
+      setShowModal(false);
+    } else {
+      console.log('modal is now true')
+      setShowModal(true);
+    }
+
+  }
   return (
-    
 <header className="  text-gray-600 body-font">
   <div className="hidden container mx-auto lg:flex flex-wrap p-6 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -42,7 +56,10 @@ export default function Navbar() {
       {/* phonenav */}
   <div className="w-full px-8 py-2 flex justify-between lg:hidden">
     <div className=' w-1/2 py-3 '>
+      <button  onClick={check}>
         <BurgerMenuIcon/>
+
+      </button>
 
     </div>
     <a className="flex title-font font-medium items-center  text-gray-900 mb-4 md:mb-0">
@@ -52,6 +69,7 @@ export default function Navbar() {
     </a>
     
   </div>
+  <Modal isVisible={showModal}/>
 </header>
 
   )
