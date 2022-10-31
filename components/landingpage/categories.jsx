@@ -15,10 +15,10 @@ export default function Categories() {
   return (
     <section className="text-gray-600 body-font">
         <div className="container px-5 py-16 mx-auto ">
-        <div class="flex justify-centers flex-wrap justify-between px-12 w-full mb-20">
-          <div class="flex flex-col text-center lg:text-left  lg:w-1/2 w-full mb-6 lg:mb-0">
+        <div className="flex justify-centers flex-wrap justify-between px-12 w-full mb-20">
+          <div className="flex flex-col text-center lg:text-left  lg:w-1/2 w-full mb-6 lg:mb-0">
             <p className='text-sitegreen font-medium'>Explorez tous les</p>
-            <h1 class="text-4xl font-extrabold  lg:text-6xl lg:font-extrabold  title-font mb-2 text-gray-900">Categories</h1>
+            <h1 className="text-4xl font-extrabold  lg:text-6xl lg:font-extrabold  title-font mb-2 text-gray-900">Categories</h1>
           </div>  
           <div className='flex w-full lg:w-0  flex-row justify-center space-x-2   '>
             <button>
