@@ -8,6 +8,8 @@ import aboutuspagesecimg from '../public/aboutuspagesecimg.svg'
 import dquotes from '../public/dquotes.svg'
 import union from '../public/union.svg'
 import userimg from '../public/userimg.svg'
+
+
 import LeftIcon from '../public/icons/lefticon'
 import RightIcon from '../public/icons/righticon'
 import partner1 from '../public/partners/partner1.svg'

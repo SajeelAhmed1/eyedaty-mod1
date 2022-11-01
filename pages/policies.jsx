@@ -19,7 +19,7 @@ export default function Policies() {
                     </span>
                 </p>
             <div>
-                <h1 className='text-6xl font-bold'>
+                <h1 className='lg:text-6xl text-5xl font-bold'>
                 Politique de confidentialité
                 </h1>
             </div>
