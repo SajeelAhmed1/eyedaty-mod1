@@ -1,16 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import likeicon from '../public/commentsicons/likeicon.svg'
-import dislikeicon from '../public/commentsicons/dislikeicon.svg'
-import replyicon from '../public/commentsicons/replyicon.svg'
-import selmaavatar from '../public/selmaavatar.svg'
-
-export default function Replytemp() {
+import likeicon from '../../../public/commentsicons/likeicon.svg'
+import dislikeicon from '../../../public/commentsicons/dislikeicon.svg'
+import replyicon from '../../../public/commentsicons/replyicon.svg'
+import userimg from '../../../public/userimg.svg'
+export default function Commenttemp() {
   return (
-    <div className='ml-20'>
+    <div className=''>
               <div className='flex flex-row space-x-4 my-3'>
                 <div>
-                  <Image src={selmaavatar} height="100" width="100" alt="selmaavatar" />
+                  <Image src={userimg} height="100" width="100" alt="selmaavatar" />
 
                 </div>
                 <div className='flex flex-col'>

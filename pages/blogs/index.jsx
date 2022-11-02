@@ -8,7 +8,7 @@ import blogimg5 from '../../public/blogimgs/blogimg5.png'
 import blogimg6 from '../../public/blogimgs/blogimg6.png'
 
 
-import Blogpagecard from '../../components/blogpagecard'
+import Blogpagecard from '../../components/blogpagecomps/blogpagecard'
 import Sidebarcontent from '../../components/sidebarcontent';
 import Gridboxicon from '../../public/icons/gridboxicon'
 import Listicon from '../../public/icons/listicon'

@@ -8,7 +8,7 @@ import blogimg5 from '../public/blogimgs/blogimg5.png'
 import blogimg6 from '../public/blogimgs/blogimg6.png'
 
 import userimg from '../public/userimg.svg'
-import Calendaricon from '../public/icons/calendaricon'
+import Calendaricon from '../../public/icons/calendaricon'
 
 export default function Blogpagecard(props) {
   return (
