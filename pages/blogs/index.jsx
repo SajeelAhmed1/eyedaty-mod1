@@ -1,19 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
-import blogimg1 from '../public/blogimgs/blogimg1.png'
-import blogimg2 from '../public/blogimgs/blogimg2.png'
-import blogimg3 from '../public/blogimgs/blogimg3.png'
-import blogimg4 from '../public/blogimgs/blogimg4.png'
-import blogimg5 from '../public/blogimgs/blogimg5.png'
-import blogimg6 from '../public/blogimgs/blogimg6.png'
-import Link from 'next/link'; 
-import userimg from '../public/userimg.svg'
-import Calendaricon from '../public/icons/calendaricon'
-import Blogpagecard from '../components/blogpagecard'
-import menuItems from "../pages/api/blogscat"
-import Sidebarcontent from '../components/sidebarcontent';
-import Gridboxicon from '../public/icons/gridboxicon'
-import Listicon from '../public/icons/listicon'
+import blogimg1 from '../../public/blogimgs/blogimg1.png'
+import blogimg2 from '../../public/blogimgs/blogimg2.png'
+import blogimg3 from '../../public/blogimgs/blogimg3.png'
+import blogimg4 from '../../public/blogimgs/blogimg4.png'
+import blogimg5 from '../../public/blogimgs/blogimg5.png'
+import blogimg6 from '../../public/blogimgs/blogimg6.png'
+
+
+import Blogpagecard from '../../components/blogpagecard'
+import Sidebarcontent from '../../components/sidebarcontent';
+import Gridboxicon from '../../public/icons/gridboxicon'
+import Listicon from '../../public/icons/listicon'
 
 
 
