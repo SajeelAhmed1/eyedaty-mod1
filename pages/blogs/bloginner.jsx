@@ -11,10 +11,17 @@ import selmaavatar from '../../public/selmaavatar.svg'
 import Commenttemp from '../../components/blogpagecomps/bloginerpagecomps/commenttemp'
 import Replytemp from '../../components/blogpagecomps/bloginerpagecomps/replytemp'
 import Otherblogcomp from '../../components/blogpagecomps/bloginerpagecomps/otherblogcomp'
+import Qmark from '../../public/qmark'
 export default function Bloginner() {
   return (
     <div className='flex flex-row '>
         <div className='w-2/3 flex leading-7 flex-col px-24 space-y-3 py-10 '>
+            <p>
+              Accueil {">"} Blog {">"} Cardiologie {">"} <span className='text-siteblue'>
+
+              Une hernie discale lombaire ventrale..
+                  </span>
+            </p>
             <h1 className='text-5xl font-bold'>
               Une hernie discale lombaire ventrale..
             </h1>
@@ -119,13 +126,17 @@ export default function Bloginner() {
 
         </div>
         <div className='w-1/3 flex flex-col p-4 space-y-3'>
+
+        
               <div>
                 <div className='flex flex-col space-y-2 w-full px-6'>
                   <p>
                     Chercher
                   </p>
-                  <input className=" placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-3 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Chercher" type="text" name="search"/>
-        
+                  <div class="relative mt-1">
+                    <input type="text" id="searchtext" class="w-full pl-3 pr-10 py-2 border-2 border-gray-200 rounded-xl hover:border-gray-300 focus:outline-none focus:border-blue-500 transition-colors" placeholder="Chercher"/>
+                    <button class="block w-7 h-7 text-center text-xl leading-0 absolute top-2 right-2 text-gray-400 focus:outline-none hover:text-gray-900 transition-colors"> <Qmark/> </button>
+                  </div>
                 </div>
               </div>
               <div className='flex flex-col'>

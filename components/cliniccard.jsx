@@ -1,11 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-// import ViewIcon from '../icons/viewicon'
+
 import ViewIcon from '../public/icons/viewicon'
 import StarIcon from '../public/icons/staricon'
 import LocationIcon from '../public/icons/locationicon'
 import HeartIcon from '../public/icons/hearticon'
-// import checkmark from '../../public/checkmark.png'
 import checkmark from '../public/checkmark.png'
 
 export default function ClinicCard(props) {
