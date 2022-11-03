@@ -70,7 +70,7 @@ export default function Bloginner() {
 
             <div className='w-full  rounded-lg p-6'>
               <h1 className='font-extrabold text-3xl'>
-                A propos de l'auteur
+                A propos de l&apos;auteur
               </h1>
               <div className='flex flex-row space-x-4 my-3'>
                 <div>
